@@ -4,6 +4,13 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.frame {
+  width: 800px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   height: 84px;
   display: flex;
@@ -47,4 +54,17 @@ p {
   margin: 20px;
   font-size: 14px;
   opacity: 0.75;
+}
+
+.thumbnail {
+  margin: 0px 20px 20px 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.copyright {
+  text-align: center;
+  opacity: 0.75;
+  font-size: 20px;
 }
