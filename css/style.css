@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+  height: 84px;
+  display: flex;
+}
+
+.header_logo {
+  margin: 20px;
+  font-size: 44px;
+  opacity: 0.75;
+}
+
+.header_menu_list {
+  margin-top: 34px;
+  margin-bottom: 22px;
+  display: flex;
+}
+
+.a {
+  display: flex;
+  font-size: 28px;
+  opacity: 0.75;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+.caption {
+  margin: 20px;
+  font-size: 20px;
+  opacity: 0.75;
+}
+
+p {
+  margin: 20px;
+  font-size: 14px;
+  opacity: 0.75;
+}
