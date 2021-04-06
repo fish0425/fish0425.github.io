@@ -7,17 +7,23 @@
 .frame {
   width: 800px;
   height: 600px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../img/back/shima.jpg);
+  background-size: cover;
+  text-shadow: 2px 0 #000000;
 }
 
 .header {
-  height: 84px;
+  height: 110px;
   display: flex;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .header_logo {
-  margin: 20px;
+  padding: 20px;
   font-size: 44px;
   opacity: 0.75;
 }
@@ -37,16 +43,24 @@
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 a:hover {
   opacity: 0.75;
 }
 
+.main {
+  height: 490px;
+  color: #ffffff;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
 .caption {
-  margin: 20px;
-  font-size: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 28px;
   opacity: 0.75;
 }
 
@@ -67,4 +81,5 @@ p {
   text-align: center;
   opacity: 0.75;
   font-size: 20px;
+  margin-top: 20px;
 }
